@@ -12,12 +12,14 @@ function App() {
       <Navbar />
       <BlobsYellow />
       <Blobs />
+
       <main>
         <Hero/>
         <ProdPreview />
         <Features />
         <Footer />
       </main>
+      
     </>
   );
 }

@@ -3,8 +3,10 @@ import Fan_1 from "@/components/Fan_1";
 
 const Hero = () => {
   return (
-    <section className="h-screen place-content-center">
-      <div className="flex flex-col gap-5 place-content-center">
+    <section className="h-full place-content-center">
+
+      <div className="flex flex-col gap-5 relative top-12">
+
         <div className="mx-auto">
           <Fan_1 className="w-3/5 md:w-full mx-auto" />
         </div>
