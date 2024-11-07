@@ -3,13 +3,9 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
 
   color-scheme: light dark;
-  color: rgba(0, 0, 0, 0.87);
-  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -44,6 +40,9 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
+    --ellipseBlue: 243, 100%, 63%, 1;
+    --ellipseYellow: 53, 100%, 57%, 1;
+    --muted-button-footer: 0, 0%, 33%, 1;
   }
   .dark {
     --background: 0 0% 3.9%;
