@@ -13,7 +13,7 @@ const Features = () => {
         </span>
       </div>
 
-      <Wire_1 className="absolute left-0 -translate-x-12 top-12 -z-50 md:z-10 blur-sm md:blur-0" />
+      <Wire_1 className="absolute left-0 -translate-x-12 top-12 -z-50 hidden md:flex md:z-10" />
 
       <div
         className="absolute w-full h-28 -z-50 -translate-y-20"
