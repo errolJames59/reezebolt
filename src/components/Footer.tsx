@@ -12,7 +12,7 @@ const style = {
 
 const Footer = () => {
   return (
-    <section className="h-screen flex flex-col place-content-end gap-8 md:gap-12 pb-4 md:pb-12" style={style}>
+    <section className="flex flex-col place-content-end gap-8 md:gap-12 pb-4 md:pb-12 md:pt-24" style={style}>
       <div className="w-4/6 text-center mx-auto">
         <h1
           className="text-xl md:text-4xl font-semibold"

@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <BlobsYellow />
       <Blobs />
-      <main className="relative top-12">
+      <main>
         <Hero/>
         <ProdPreview />
         <Features />

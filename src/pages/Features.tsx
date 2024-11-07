@@ -1,11 +1,10 @@
 import Fan_5 from "@/components/Fan_5";
 import FeaturesLine_1 from "@/components/FeaturesLine_1";
-import { Button } from "@/components/ui/button";
 import Wire_1 from "@/components/Wire_1";
 
 const Features = () => {
   return (
-    <section className="flex flex-col h-fit gap-14 relative">
+    <section className="flex flex-col gap-14 relative">
 
       <div className="w-full overflow-hidden absolute right-0 flex justify-end translate-y-32 -z-50">
         <span className="translate-x-[32rem]">
@@ -120,9 +119,6 @@ const Features = () => {
             </p>
           </div>
 
-          <Button className="mx-auto w-56 h-14 font-bold">
-            GET YOURS NOW!
-          </Button>
         </div>
       </div>
     </section>
