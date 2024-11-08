@@ -2,9 +2,13 @@ import Fan_5 from "@/components/Fan_5";
 import FeaturesLine_1 from "@/components/FeaturesLine_1";
 import Wire_1 from "@/components/Wire_1";
 
-const Features = () => {
+interface FeaturesProps {
+  className?: string;
+}
+
+const Features: React.FC<FeaturesProps> = ({className}) => {
   return (
-    <section className="flex flex-col gap-14 relative">
+    <section className={`flex flex-col gap-14 relative ${className}`}>
 
       <div className="w-full overflow-hidden absolute right-0 flex justify-end translate-y-32 -z-50">
         <span className="translate-x-[32rem]">
@@ -14,12 +18,7 @@ const Features = () => {
 
       <Wire_1 className="absolute left-0 -translate-x-12 top-12 -z-50 hidden md:flex md:z-10" />
 
-      <div
-        className="absolute w-full h-28 -z-50 -translate-y-20"
-        style={{
-          background: "linear-gradient(#FFE525 61.9%, #FFF 100%)",
-        }}
-      ></div>
+
 
       <div className="relative flex overflow-hidden bg-black text-white p-4">
         <div className="animate-[marquee_15s_linear_infinite] flex whitespace-nowrap">

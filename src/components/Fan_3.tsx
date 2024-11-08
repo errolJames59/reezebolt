@@ -9,7 +9,7 @@ const Fan_3: React.FC<Fan3Props> = ({ className }) => {
     <>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 337 300"
+        viewBox="0 0 337 350"
         fill="none"
         className={`mx-auto relative translate-y-32 -z-30 ${className}`}
       >

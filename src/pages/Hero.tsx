@@ -1,12 +1,14 @@
 import { Button } from "@/components/ui/button";
 import Fan_1 from "@/components/Fan_1";
 
-const Hero = () => {
+interface HeroProps {
+  className?: string;
+}
+
+const Hero: React.FC<HeroProps> = ({ className }) => {
   return (
-    <section className="h-full place-content-center">
-
-      <div className="flex flex-col gap-5 relative top-12">
-
+    <section className={`min-h-screen place-content-center ${className}`}>
+      <div className="flex flex-col gap-5">
         <div className="mx-auto">
           <Fan_1 className="w-3/5 md:w-full mx-auto" />
         </div>
@@ -24,12 +26,11 @@ const Hero = () => {
           </h1>
         </div>
 
-      <div className="mx-auto">
+        <div className="mx-auto">
           <Button className="w-56 h-14 font-bold">
             BUY NOW!
           </Button>
-      </div>
-
+        </div>
       </div>
     </section>
   );
