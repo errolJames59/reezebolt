@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Fan_1 from "@/components/Fan_1";
+import { Link } from "react-scroll";
 
 interface HeroProps {
   className?: string;
@@ -27,9 +28,9 @@ const Hero: React.FC<HeroProps> = ({ className }) => {
         </div>
 
         <div className="mx-auto">
-          <Button className="w-56 h-14 font-bold">
-            BUY NOW!
-          </Button>
+          <Link to="pricing" smooth={true} duration={700}>
+            <Button className="w-56 h-14 font-bold">BUY NOW!</Button>
+          </Link>
         </div>
       </div>
     </section>

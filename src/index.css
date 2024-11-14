@@ -43,6 +43,7 @@
     --ellipseBlue: 243, 100%, 63%, 1;
     --ellipseYellow: 53, 100%, 57%, 1;
     --muted-button-footer: 0, 0%, 33%, 1;
+    --placeOrderButton: 53, 100%, 57%, 1;
   }
   .dark {
     --background: 0 0% 3.9%;

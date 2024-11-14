@@ -18,6 +18,7 @@ export default {
   			ellipseBlue: 'hsl(var(--ellipseBlue))',
   			ellipseYellow: 'hsl(var(--ellipseYellow))',
   			mutedFooter: 'hsl(var(--muted-button-footer))',
+			placeOrderButton: 'hsl(var(--placeOrderButton))',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'

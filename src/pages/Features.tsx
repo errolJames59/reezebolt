@@ -12,7 +12,7 @@ const Features: React.FC<FeaturesProps> = ({className}) => {
 
       <div className="w-full overflow-hidden absolute right-0 flex justify-end translate-y-32 -z-50">
         <span className="translate-x-[32rem]">
-          <Fan_5 className="hidden md:flex animate-[spin_30s_linear_infinite]" />
+          <Fan_5 className="hidden md:flex md:w-4/6 lg:w-full animate-[spin_30s_linear_infinite]" />
         </span>
       </div>
 

@@ -7,6 +7,7 @@ import Features from "./pages/Features";
 import Footer from "./components/Footer";
 import Pricing from "./pages/Pricing";
 import AboutUs from "./pages/AboutUs";
+import { Toaster } from "./components/ui/toaster";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         <AboutUs className="aboutUs"/>
         <Footer />
       </main>
+
+      <Toaster />
       
     </>
   );
